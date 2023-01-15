@@ -1,1 +1,92 @@
-testing...
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Keywords" content="C,C++,CPP,Python,Java,HTML,CSS,JavaScript,programming,programmieren,mobile,apps,Android,iOS,smartphone,handy,it,development,software,entwicklung,codefox">
+	<meta name="Description" content="Software developer and reverse engineer from Germany">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="imag
+	e/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<title>codefox - software development</title>
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" title="dark" href="css/dark.css" disabled>
+	<link rel="stylesheet" type="text/css" title="light" href="css/light.css" disabled>
+	<script type="text/javascript" src="js/cookies.js"></script>
+	
+</head>
+<body>
+	<header class="topmenu">
+		<div class="logo">
+			<div onclick="window.location='/#top'" title="Move to start page" class="img"></div>
+		</div>
+		<nav class="navigation">
+			<ul>
+				<li><a href="/#top">code::<span class="cf-orange">fox</span></a></li>
+				<li><a href="/#projects">Projects</a></li>
+				<li><a href="/#about">About</a></li>
+				<li><a href="/#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="themeswitch">
+			<div class="themeicon"><i class="fas fa-moon"></i></div>
+			<div class="darkmode">
+				<label class="switch">
+					<input type="checkbox" id="darkmode-selector" onclick="toggle_darkmode();">
+					<span class="slider round" title="Dark mode"></span>
+				</label>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/theme.js"></script>
+		<div id="cookieinfo" hidden><div class="cookietext"><p>This site uses cookies for storing page settings. You agree to cookies being stored on your device by using this site.</p></div><div class="closebutton"><a href="#" onclick="dismiss_cookie_info(); return false;">[x] close</a></div></div>
+	</header>
+	<main>
+		<section id="home" class="content">
+			<div class="logo"></div>
+			<div class="title"><span>code::<span class="cf-orange">fox</span></span></div>
+			<h1>Welcome!</h1>
+			<span>
+				<p>Welcome to my website! I'm a relatively young programmer from Germany who's spent about half of his life working on and sharpening his skills in this subject and relevant/interesting sub-topics.</p>
+				<p>I know various programming languages and have acquired skills in reverse engineering using IDA Pro and Ghidra. In addition to this, I also know how to setup and maintain IT systems. If you have any questions, please don't refrain from asking on my <a href="#contact">contact page</a>.</p></span>
+		</section>
+		<section id="projects" class="content">
+			<h1>Projects</h1>
+			<span>
+				<p>This is planned to be a showcase for my projects. Right now, it is barely just a placeholder.</p>
+				<p>In the meantime, check out my Github profile: <a href="https://github.com/cff0x">github.com/cff0x</a></p>
+			</span>
+		</section>
+		<section id="about" class="content">
+			<h1>About me</h1>
+			<span>
+				<p>
+					I've started programming back in my childhood days out of interest in technology. Over the years, I've gained experience developing with C/C++, C#, Java, Python, Delphi and some more programming languages, as well as various databases. On top of that, I could also call myself a reverse engineer since I've been writing my own game cheats from time to time which involved dynamic and static analysis and patching of executable (mostly PE) binaries. My general IT skills are broad-ranged and assist me in my daily work.
+				</p>
+				<p>
+					While working for my first IT company, I've developed components for a custom CRM system. Later, in that same company, I've worked on a new Java-based web CRM solution (microservices architecture) which was meant to replace the old one. Because I've worked in the DevOps field as well, Docker is also well known to me. In my current company, I mainly work as a system administrator to expand my knowledge in this area. Whenever the opportunity arises, I also develop data analysis and reporting scripts and tools for the company.
+				</p>
+				<p>
+					Privately, while my attention usually went into the direction of gamehacking/reverse engineering and I've also got experience in web design/web development.
+				</p>
+			</span>
+		</section>
+		<section id="contact" class="content">
+			<h1>Contact me</h1>
+			<span>
+				<p>
+					You can contact me via email at <a href="#" class="hiddenmail" data-name="cff0x" data-domain="codefox" data-tld="me" onclick="window.location='mailto:' + this.getAttribute('data-name') + '@' + this.getAttribute('data-domain') + '.' + this.getAttribute('data-tld'); return false;"></a>.
+						<span class="emailhint">(click to send send email)</span>
+				</p>
+			</span>
+		</section>
+	</main>
+	<footer>
+		<div class="footer">&copy; <span class="currentyear">2023</span> Levia Wegener - all rights reserved</div>
+	</footer>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

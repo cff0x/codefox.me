@@ -1,0 +1,63 @@
+body {
+	background-color: #151515;
+	color: #fff;
+}
+
+header.topmenu {
+	background-color: #222;
+	border-bottom: 1px solid #444;
+}
+
+header.topmenu .logo .img {
+	content: url(../img/ears_orange.svg);
+}
+
+header.topmenu .themeswitch .switch-dark {
+	color: #e4e4e4;
+}
+
+header.topmenu .themeswitch .switch-light {
+	color: #bfbfbf;
+}
+
+header.topmenu a {
+	color: #ffffff;
+}
+
+header.topmenu a:hover {
+	color: #dfdfdf;
+}
+
+span.cf-orange {
+	color: #f27e00;
+}
+
+a {
+	color: #bfbfbf;
+}
+
+span.emailhint {
+	color: #bfbfbf;
+}
+
+footer div.footer {
+	border-width: 1px;
+	border-style: solid solid none solid;
+	border-color: #444;
+	background-color: #222;
+}
+
+div#cookieinfo {
+	border-width: 1px;
+	border-style: none solid solid none;
+	border-color: #444;
+	background-color: #222;
+}
+
+section#imprint .logo {
+	content: url(../img/ears_white_1.svg);
+}
+
+i.switch-separator {
+	color: #444;
+}
